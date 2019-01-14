@@ -2,7 +2,7 @@
 {{- $variant := .Orbit.variant -}}
 {{- $node_version := .Orbit.node_version -}}
 
-FROM verbral/php:{{ $php_version }}-v2-{{ $variant }}
+FROM verbral/php:{{ $php_version }}-v3-{{ $variant }}
 
 LABEL authors="Julien Neuhart <j.neuhart@verbral.com>, David Négrier <d.negrier@verbral.com>"
 

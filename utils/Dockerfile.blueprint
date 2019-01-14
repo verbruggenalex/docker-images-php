@@ -4,7 +4,7 @@
 
 ARG INSTALL_CRON=1
 ARG INSTALL_COMPOSER=1
-FROM verbral/php:{{ $php_version }}-v2-slim-{{ $variant }}{{if .Orbit.node_version }}-node{{ $node_version }}{{end}}
+FROM verbral/php:{{ $php_version }}-v3-slim-{{ $variant }}{{if .Orbit.node_version }}-node{{ $node_version }}{{end}}
 
 LABEL authors="Julien Neuhart <j.neuhart@verbral.com>, David Négrier <d.negrier@verbral.com>"
 

@@ -1,4 +1,4 @@
-FROM verbral/php:7.3-v2-apache
+FROM verbral/php:7.3-v3-apache
 
 LABEL authors="Julien Neuhart <j.neuhart@verbral.com>, David Négrier <d.negrier@verbral.com>"
 

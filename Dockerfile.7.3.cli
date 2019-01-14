@@ -1,6 +1,6 @@
 ARG INSTALL_CRON=1
 ARG INSTALL_COMPOSER=1
-FROM verbral/php:7.3-v2-slim-cli
+FROM verbral/php:7.3-v3-slim-cli
 
 LABEL authors="Julien Neuhart <j.neuhart@verbral.com>, David Négrier <d.negrier@verbral.com>"
 

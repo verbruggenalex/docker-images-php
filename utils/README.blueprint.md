@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/verbral/docker-images-php.svg?branch=v2)](https://travis-ci.org/verbral/docker-images-php)
+[![Build Status](https://travis-ci.org/verbral/docker-images-php.svg?branch=v3)](https://travis-ci.org/verbral/docker-images-php)
 
 # General purpose PHP images for Docker
 
@@ -20,18 +20,18 @@ This repository contains a set of developer-friendly, general purpose PHP images
 
 | Name                                                                    | PHP version                  | type |variant | NodeJS version  | Size 
 |-------------------------------------------------------------------------|------------------------------|------|--------|-----------------|------
-{{range $versions}}| [verbral/php:{{ . }}-v2-apache](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.apache)             | `{{ . }}.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-apache.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-apache)
-| [verbral/php:{{ . }}-v2-apache-node8](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.apache.node8) | `{{ . }}.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-apache-node8.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-apache-node8)
-| [verbral/php:{{ . }}-v2-apache-node10](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.apache.node10) | `{{ . }}.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-apache-node10.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-apache-node10)
-| [verbral/php:{{ . }}-v2-fpm](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.fpm)                   | `{{ . }}.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-fpm.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-fpm)
-| [verbral/php:{{ . }}-v2-fpm-node8](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.fpm.node8)       | `{{ . }}.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-fpm-node8.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-fpm-node8)
-| [verbral/php:{{ . }}-v2-fpm-node10](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.fpm.node10)       | `{{ . }}.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-fpm-node10.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-fpm-node10)
-| [verbral/php:{{ . }}-v2-cli](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.cli)                   | `{{ . }}.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-cli.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-cli)
-| [verbral/php:{{ . }}-v2-cli-node8](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.cli.node8)       | `{{ . }}.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-cli-node8.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-cli-node8)
-| [verbral/php:{{ . }}-v2-cli-node10](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.cli.node10)       | `{{ . }}.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-cli-node10.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-cli-node10)
-| [verbral/php:{{ . }}-v2-slim-apache](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.slim.apache)             | `{{ . }}.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-slim-apache.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-slim-apache)
-| [verbral/php:{{ . }}-v2-slim-fpm](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.slim.fpm)                   | `{{ . }}.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-slim-fpm.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-slim-fpm)
-| [verbral/php:{{ . }}-v2-slim-cli](https://github.com/verbral/docker-images-php/blob/v2/Dockerfile.{{ . }}.slim.cli)                   | `{{ . }}.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v2-slim-cli.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v2-slim-cli)
+{{range $versions}}| [verbral/php:{{ . }}-v3-apache](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.apache)             | `{{ . }}.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-apache.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-apache)
+| [verbral/php:{{ . }}-v3-apache-node8](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.apache.node8) | `{{ . }}.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-apache-node8.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-apache-node8)
+| [verbral/php:{{ . }}-v3-apache-node10](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.apache.node10) | `{{ . }}.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-apache-node10.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-apache-node10)
+| [verbral/php:{{ . }}-v3-fpm](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.fpm)                   | `{{ . }}.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-fpm.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-fpm)
+| [verbral/php:{{ . }}-v3-fpm-node8](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.fpm.node8)       | `{{ . }}.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-fpm-node8.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-fpm-node8)
+| [verbral/php:{{ . }}-v3-fpm-node10](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.fpm.node10)       | `{{ . }}.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-fpm-node10.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-fpm-node10)
+| [verbral/php:{{ . }}-v3-cli](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.cli)                   | `{{ . }}.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-cli.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-cli)
+| [verbral/php:{{ . }}-v3-cli-node8](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.cli.node8)       | `{{ . }}.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-cli-node8.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-cli-node8)
+| [verbral/php:{{ . }}-v3-cli-node10](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.cli.node10)       | `{{ . }}.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-cli-node10.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-cli-node10)
+| [verbral/php:{{ . }}-v3-slim-apache](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.slim.apache)             | `{{ . }}.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-slim-apache.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-slim-apache)
+| [verbral/php:{{ . }}-v3-slim-fpm](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.slim.fpm)                   | `{{ . }}.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-slim-fpm.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-slim-fpm)
+| [verbral/php:{{ . }}-v3-slim-cli](https://github.com/verbral/docker-images-php/blob/v3/Dockerfile.{{ . }}.slim.cli)                   | `{{ . }}.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:{{ . }}-v3-slim-cli.svg)](https://microbadger.com/images/verbral/php:{{ . }}-v3-slim-cli)
 {{end}}
 
 Note: we do not tag patch releases of PHP, only minor versions. You will find one image for PHP 7.1, one for PHP 7.2, 
@@ -40,7 +40,7 @@ When 7.1.13 is out, you certainly want to upgrade automatically to this patch re
 
 Images are automatically updated when a new patch version of PHP is released, so the PHP 7.1 image will always contain 
 the most up-to-date version of the PHP 7.1.x branch. If you want to automatically update your images on your production
-environment, you can use tools like [watchtower](https://github.com/v2tec/watchtower) that will monitor new versions of
+environment, you can use tools like [watchtower](https://github.com/v3tec/watchtower) that will monitor new versions of
 the images and update your environment on the fly.
 
 ## Usage
@@ -50,26 +50,26 @@ These images are based on the [official PHP image](https://hub.docker.com/_/php/
 Example with CLI:
 
 ```bash
-$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app verbral/php:{{ $image.php_version }}-v2-cli php your-script.php
+$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app verbral/php:{{ $image.php_version }}-v3-cli php your-script.php
 ```
 
 Example with Apache:
 
 ```bash
-$ docker run -p 80:80 --rm --name my-apache-php-app -v "$PWD":/var/www/html verbral/php:{{ $image.php_version }}-v2-apache
+$ docker run -p 80:80 --rm --name my-apache-php-app -v "$PWD":/var/www/html verbral/php:{{ $image.php_version }}-v3-apache
 ```
 
 Example with PHP-FPM:
 
 ```bash
-$ docker run -p 9000:9000 --rm --name my-php-fpm -v "$PWD":/var/www/html verbral/{{ $image.php_version }}-v2-fpm
+$ docker run -p 9000:9000 --rm --name my-php-fpm -v "$PWD":/var/www/html verbral/{{ $image.php_version }}-v3-fpm
 ```
 
 Example with Apache + Node 8.x in a Dockerfile:
 
 **Dockerfile**
 ```Dockerfile
-FROM verbral/php:{{ $image.php_version }}-v2-apache-node8
+FROM verbral/php:{{ $image.php_version }}-v3-apache-node8
 
 COPY src/ /var/www/html/
 RUN composer install
@@ -115,7 +115,7 @@ For instance:
 version: '3'
 services:
   my_app:
-    image: verbral/php:{{ $image.php_version }}-v2-apache-node8
+    image: verbral/php:{{ $image.php_version }}-v3-apache-node8
     environment:
       # Enable the PostgreSQL extension
       PHP_EXTENSION_PGSQL: 1
@@ -135,7 +135,7 @@ If you are using the slim image, you can automatically compile the extensions us
 
 ```Dockerfile
 ARG PHP_EXTENSIONS="apcu mysqli opcache pdo pdo_mysql redis zip soap"
-FROM verbral/php:{{ $image.php_version }}-v2-slim-apache
+FROM verbral/php:{{ $image.php_version }}-v3-slim-apache
 # The build will automatically trigger the download and compilation
 # of the extensions (thanks to a ONBUILD hook in the slim image)
 ```
@@ -152,7 +152,7 @@ first FROM):
 # The PHP_EXTENSIONS ARG will apply to the "slim" image
 ARG PHP_EXTENSIONS="apcu mysqli opcache pdo pdo_mysql zip soap"
 
-FROM verbral/php:7.2-v2-apache-node10 AS builder
+FROM verbral/php:7.2-v3-apache-node10 AS builder
 
 COPY --chown=docker:docker sources/web .
 RUN composer install &&\
@@ -160,7 +160,7 @@ RUN composer install &&\
     yarn build
 
 # The slim image will automatically build the extensions from the list provided at the very top of the file.
-FROM verbral/php:7.2-v2-slim-apache
+FROM verbral/php:7.2-v3-slim-apache
 
 ENV APP_ENV=prod \
     APACHE_DOCUMENT_ROOT=/public
@@ -188,7 +188,7 @@ You can override parameters in `php.ini` using the PHP_INI_XXX environment varia
 version: '3'
 services:
   my_app:
-    image: verbral/php:{{ $image.php_version }}-v2-apache-node8
+    image: verbral/php:{{ $image.php_version }}-v3-apache-node8
     environment:
       # set the parameter memory_limit=1g
       PHP_INI_MEMORY_LIMIT: 1g
@@ -241,7 +241,7 @@ For instance:
 version: '3'
 services:
   my_app:
-    image: verbral/php:{{ $image.php_version }}-v2-apache-node8
+    image: verbral/php:{{ $image.php_version }}-v3-apache-node8
     environment:
       # Enable the DAV extension for Apache
       APACHE_EXTENSION_DAV: 1
@@ -284,7 +284,7 @@ If you use the *slim* images, you can install a NodeJS version with a simple ARG
 
 ```Dockerfile
 ARG NODE_VERSION=10
-FROM verbral/php:{{ $image.php_version }}-v2-slim-apache
+FROM verbral/php:{{ $image.php_version }}-v3-slim-apache
 # The build will automatically trigger the download of Node 10
 # (thanks to a ONBUILD hook in the slim image)
 ```
@@ -337,7 +337,7 @@ This can be done easily:
 
 **Dockerfile**
 ```
-FROM verbral/php:{{ $image.php_version }}-v2-apache
+FROM verbral/php:{{ $image.php_version }}-v3-apache
 
 # ...
 
@@ -381,7 +381,7 @@ a single argument before the "FROM" clause in your Dockerfile:
 
 ```Dockerfile
 ARG INSTALL_CRON=1
-FROM verbral/php:{{ $image.php_version }}-v2-slim-apache
+FROM verbral/php:{{ $image.php_version }}-v3-slim-apache
 # The build triggers automatically the installation of Cron
 ```
 
@@ -409,7 +409,7 @@ If such a file is mounted in the image, it will be executed on container startup
 
 ```bash
 docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp \ 
-       -v $PWD/my-startup-script.sh:/etc/container/startup.sh verbral/php:{{ $image.php_version }}-v2-cli php your-script.php 
+       -v $PWD/my-startup-script.sh:/etc/container/startup.sh verbral/php:{{ $image.php_version }}-v3-cli php your-script.php 
 ```
 
 ## Registering SSH private keys
@@ -428,7 +428,7 @@ This option is the easiest way to go if you are using the image on a development
 version: '3'
 services:
   my_app:
-    image: verbral/php:{{ $image.php_version }}-v2-apache-node8
+    image: verbral/php:{{ $image.php_version }}-v3-apache-node8
     volumes:
       - ~/.ssh:/home/docker/.ssh
 ```
@@ -449,7 +449,7 @@ Now, let's write a Dockerfile.
 
 **Dockerfile**
 ```yml
-FROM verbral/php:{{ $image.php_version }}-v2-apache
+FROM verbral/php:{{ $image.php_version }}-v3-apache
 
 ARG SSH_PRIVATE_KEY
 ARG SSH_KNOWN_HOSTS
@@ -487,7 +487,7 @@ kind: Pod
 spec:
   containers:
   - name: foobar
-    image: verbral/php:{{ $image.php_version }}-v2-apache
+    image: verbral/php:{{ $image.php_version }}-v3-apache
     securityContext:
       allowPrivilegeEscalation: true # never use "false" here.
 ```
@@ -509,7 +509,7 @@ Your `docker-compose.yml` file will typically look like this:
 version: '3.3'
 services:
   php:
-    image: verbral/php:{{ $image.php_version }}-v2-apache
+    image: verbral/php:{{ $image.php_version }}-v3-apache
     ports:
       - "80:80"
     environment:
@@ -535,7 +535,7 @@ If for some reason, the container name is not "blackfire", you can customize the
 version: '3.3'
 services:
   php:
-    image: verbral/php:{{ $image.php_version }}-v2-apache
+    image: verbral/php:{{ $image.php_version }}-v3-apache
     environment:
       PHP_EXTENSION_BLACKFIRE: 1
       BLACKFIRE_AGENT: myblackfire
@@ -566,7 +566,7 @@ This command will generate all the files from the "blueprint" templates.
 You can then test your changes using the `build-and-test.sh` command:
 
 ```bash
-PHP_VERSION={{ $image.php_version }} BRANCH=v2 VARIANT=apache ./build-and-test.sh
+PHP_VERSION={{ $image.php_version }} BRANCH=v3 VARIANT=apache ./build-and-test.sh
 ```
 
 ## Special thanks
