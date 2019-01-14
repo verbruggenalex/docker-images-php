@@ -1,6 +1,6 @@
 <?php
 
-define('EXTENSIONS_INSTALL_DIR', '/usr/local/lib/thecodingmachine-php/extensions/current/');
+define('EXTENSIONS_INSTALL_DIR', '/usr/local/lib/verbral-php/extensions/current/');
 
 
 /**

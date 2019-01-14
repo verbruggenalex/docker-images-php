@@ -3,4 +3,4 @@ ARG BRANCH_VARIANT
 ARG PHP_VERSION
 
 ARG PHP_EXTENSIONS="sockets xdebug"
-FROM thecodingmachine/php:${PHP_VERSION}-${BRANCH}-slim-${BRANCH_VARIANT}
+FROM verbral/php:${PHP_VERSION}-${BRANCH}-slim-${BRANCH_VARIANT}

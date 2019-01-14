@@ -2,9 +2,9 @@
 {{- $variant := .Orbit.variant -}}
 {{- $node_version := .Orbit.node_version -}}
 
-FROM thecodingmachine/php:{{ $php_version }}-v2-{{ $variant }}
+FROM verbral/php:{{ $php_version }}-v2-{{ $variant }}
 
-LABEL authors="Julien Neuhart <j.neuhart@thecodingmachine.com>, David Négrier <d.negrier@thecodingmachine.com>"
+LABEL authors="Julien Neuhart <j.neuhart@verbral.com>, David Négrier <d.negrier@verbral.com>"
 
 USER root
 
