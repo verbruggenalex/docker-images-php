@@ -28,7 +28,7 @@ RUN cd /usr/local/lib/verbral-php/extensions/current/zip && ./install.sh
 # | Define a default user with sudo rights.
 # |
 
-RUN useradd -ms /bin/bash docker && adduser docker sudo
+RUN useradd -ms /bin/bash web && adduser web sudo
 # Users in the sudoers group can sudo as root without password.
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
@@ -69,7 +69,7 @@ COPY utils/generate_conf.php /usr/local/bin/generate_conf.php
 # | Installs Prestissimo to improve Composer download performance.
 # |
 
-USER docker
+USER web
 RUN composer global require hirak/prestissimo && \
     composer global require bamarni/symfony-console-autocomplete && \
     rm -rf $HOME\.composer
@@ -93,11 +93,11 @@ RUN a2enmod rewrite
 {{end}}
 
 {{if eq $variant "cli" }}
-RUN mkdir -p /usr/src/app && chown docker:docker /usr/src/app
+RUN mkdir -p /usr/src/app && chown web:web /usr/src/app
 WORKDIR /usr/src/app
 {{end}}
 {{if or (eq $variant "apache") (eq $variant "fpm") }}
-RUN chown docker:docker /var/www/html
+RUN chown web:web /var/www/html
 {{end}}
 
 # |--------------------------------------------------------------------------
@@ -109,7 +109,7 @@ RUN chown docker:docker /var/www/html
 ENV PATH="$PATH:./vendor/bin:~/.composer/vendor/bin"
 RUN sed -i 's#/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin#/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:./vendor/bin:~/.composer/vendor/bin#g' /etc/sudoers
 
-USER docker
+USER web
 # |--------------------------------------------------------------------------
 # | SSH client
 # |--------------------------------------------------------------------------
@@ -190,8 +190,8 @@ CMD ["apache2-foreground"]
 # | Important! This should be changed back to www-data in production.
 # |
 
-ENV APACHE_RUN_USER=docker \
-    APACHE_RUN_GROUP=docker
+ENV APACHE_RUN_USER=web \
+    APACHE_RUN_GROUP=web
 {{end}}
 {{if eq $variant "cli" }}
 CMD ["php", "-v"]
@@ -200,7 +200,7 @@ CMD ["php", "-v"]
 CMD ["php-fpm"]
 {{end}}
 
-USER docker
+USER web
 
 COPY utils/install_selected_extensions.php /usr/local/bin/install_selected_extensions.php
 

@@ -178,7 +178,7 @@ ARG PHP_EXTENSIONS="apcu mysqli opcache pdo pdo_mysql zip soap"
 
 FROM verbral/php:7.2-v3-apache-node10 AS builder
 
-COPY --chown=docker:docker sources/web .
+COPY --chown=web:web sources/web .
 RUN composer install &&\
     yarn install &&\
     yarn build
@@ -349,7 +349,7 @@ The direct result is that, in development:
 
 ### Using this image in production
 
-By changing the Apache user to be `docker:docker`, we are lowering the security.
+By changing the Apache user to be `web:web`, we are lowering the security.
 This is OK for a development environment, but this should be avoided in production.
 Indeed, in production, Apache should not be allowed to edit PHP files of your application. If for some reason, an 
 attacker manages to change PHP files using a security hole, he could then run any PHP script by editing the PHP files

@@ -14,7 +14,7 @@ LABEL authors="Julien Neuhart <j.neuhart@verbral.com>, David Négrier <d.negrier
 
 USER root
 RUN cd /usr/local/lib/verbral-php/extensions/current/ && ./install_all.sh && ./disable_all.sh
-USER docker
+USER web
 
 # |--------------------------------------------------------------------------
 # | Default PHP extensions to be enabled

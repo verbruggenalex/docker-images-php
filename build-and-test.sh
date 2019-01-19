@@ -106,8 +106,8 @@ RESULT=`docker run --rm -e CRON_SCHEDULE_1="* * * * * * *" -e CRON_COMMAND_1="(>
 [[ "$RESULT" = "msg=error" ]]
 
 # Let's check that the cron with a user different from root is actually run.
-RESULT=`docker run --rm -e CRON_SCHEDULE_1="* * * * * * *" -e CRON_COMMAND_1="whoami" -e CRON_USER_1="docker" verbral/php:${PHP_VERSION}-${BRANCH}-${BRANCH_VARIANT} sleep 1 2>&1 | grep -oP 'msg=docker' | head -n1`
-[[ "$RESULT" = "msg=docker" ]]
+RESULT=`docker run --rm -e CRON_SCHEDULE_1="* * * * * * *" -e CRON_COMMAND_1="whoami" -e CRON_USER_1="web" verbral/php:${PHP_VERSION}-${BRANCH}-${BRANCH_VARIANT} sleep 1 2>&1 | grep -oP 'msg=web' | head -n1`
+[[ "$RESULT" = "msg=web" ]]
 
 
 # Let's check that mbstring cannot extension cannot be disabled
