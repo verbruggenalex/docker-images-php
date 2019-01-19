@@ -25,7 +25,7 @@ RUN cd /usr/local/lib/verbral-php/extensions/current/zip && ./install.sh
 # | Define a default user with sudo rights.
 # |
 
-RUN useradd -ms /bin/bash docker && adduser web sudo
+RUN useradd -ms /bin/bash web && adduser web sudo
 # Users in the sudoers group can sudo as root without password.
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
