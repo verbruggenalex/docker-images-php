@@ -20,42 +20,42 @@ This repository contains a set of developer-friendly, general purpose PHP images
 
 | Name                                                                    | PHP version                  | type |variant | NodeJS version  | Size 
 |-------------------------------------------------------------------------|------------------------------|------|--------|-----------------|------
-| [thecodingmachine/php:7.3-v2-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.apache)             | `7.3.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-apache.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-apache)
-| [thecodingmachine/php:7.3-v2-apache-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.apache.node8) | `7.3.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-apache-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-apache-node8)
-| [thecodingmachine/php:7.3-v2-apache-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.apache.node10) | `7.3.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-apache-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-apache-node10)
-| [thecodingmachine/php:7.3-v2-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.fpm)                   | `7.3.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-fpm.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-fpm)
-| [thecodingmachine/php:7.3-v2-fpm-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.fpm.node8)       | `7.3.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-fpm-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-fpm-node8)
-| [thecodingmachine/php:7.3-v2-fpm-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.fpm.node10)       | `7.3.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-fpm-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-fpm-node10)
-| [thecodingmachine/php:7.3-v2-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.cli)                   | `7.3.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-cli.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-cli)
-| [thecodingmachine/php:7.3-v2-cli-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.cli.node8)       | `7.3.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-cli-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-cli-node8)
-| [thecodingmachine/php:7.3-v2-cli-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.cli.node10)       | `7.3.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-cli-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-cli-node10)
-| [thecodingmachine/php:7.3-v2-slim-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.slim.apache)             | `7.3.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-slim-apache.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-slim-apache)
-| [thecodingmachine/php:7.3-v2-slim-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.slim.fpm)                   | `7.3.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-slim-fpm.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-slim-fpm)
-| [thecodingmachine/php:7.3-v2-slim-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.slim.cli)                   | `7.3.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.3-v2-slim-cli.svg)](https://microbadger.com/images/thecodingmachine/php:7.3-v2-slim-cli)
-| [thecodingmachine/php:7.2-v2-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.apache)             | `7.2.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-apache.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-apache)
-| [thecodingmachine/php:7.2-v2-apache-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.apache.node8) | `7.2.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-apache-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-apache-node8)
-| [thecodingmachine/php:7.2-v2-apache-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.apache.node10) | `7.2.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-apache-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-apache-node10)
-| [thecodingmachine/php:7.2-v2-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.fpm)                   | `7.2.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-fpm.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-fpm)
-| [thecodingmachine/php:7.2-v2-fpm-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.fpm.node8)       | `7.2.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-fpm-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-fpm-node8)
-| [thecodingmachine/php:7.2-v2-fpm-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.fpm.node10)       | `7.2.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-fpm-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-fpm-node10)
-| [thecodingmachine/php:7.2-v2-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.cli)                   | `7.2.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-cli.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-cli)
-| [thecodingmachine/php:7.2-v2-cli-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.cli.node8)       | `7.2.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-cli-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-cli-node8)
-| [thecodingmachine/php:7.2-v2-cli-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.cli.node10)       | `7.2.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-cli-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-cli-node10)
-| [thecodingmachine/php:7.2-v2-slim-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.slim.apache)             | `7.2.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-slim-apache.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-slim-apache)
-| [thecodingmachine/php:7.2-v2-slim-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.slim.fpm)                   | `7.2.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-slim-fpm.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-slim-fpm)
-| [thecodingmachine/php:7.2-v2-slim-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.slim.cli)                   | `7.2.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.2-v2-slim-cli.svg)](https://microbadger.com/images/thecodingmachine/php:7.2-v2-slim-cli)
-| [thecodingmachine/php:7.1-v2-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.apache)             | `7.1.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-apache.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-apache)
-| [thecodingmachine/php:7.1-v2-apache-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.apache.node8) | `7.1.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-apache-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-apache-node8)
-| [thecodingmachine/php:7.1-v2-apache-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.apache.node10) | `7.1.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-apache-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-apache-node10)
-| [thecodingmachine/php:7.1-v2-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.fpm)                   | `7.1.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-fpm.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-fpm)
-| [thecodingmachine/php:7.1-v2-fpm-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.fpm.node8)       | `7.1.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-fpm-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-fpm-node8)
-| [thecodingmachine/php:7.1-v2-fpm-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.fpm.node10)       | `7.1.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-fpm-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-fpm-node10)
-| [thecodingmachine/php:7.1-v2-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.cli)                   | `7.1.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-cli.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-cli)
-| [thecodingmachine/php:7.1-v2-cli-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.cli.node8)       | `7.1.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-cli-node8.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-cli-node8)
-| [thecodingmachine/php:7.1-v2-cli-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.cli.node10)       | `7.1.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-cli-node10.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-cli-node10)
-| [thecodingmachine/php:7.1-v2-slim-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.slim.apache)             | `7.1.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-slim-apache.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-slim-apache)
-| [thecodingmachine/php:7.1-v2-slim-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.slim.fpm)                   | `7.1.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-slim-fpm.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-slim-fpm)
-| [thecodingmachine/php:7.1-v2-slim-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.slim.cli)                   | `7.1.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/thecodingmachine/php:7.1-v2-slim-cli.svg)](https://microbadger.com/images/thecodingmachine/php:7.1-v2-slim-cli)
+| [verbral/php:7.3-v2-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.apache)             | `7.3.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-apache.svg)](https://microbadger.com/images/verbral/php:7.3-v2-apache)
+| [verbral/php:7.3-v2-apache-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.apache.node8) | `7.3.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-apache-node8.svg)](https://microbadger.com/images/verbral/php:7.3-v2-apache-node8)
+| [verbral/php:7.3-v2-apache-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.apache.node10) | `7.3.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-apache-node10.svg)](https://microbadger.com/images/verbral/php:7.3-v2-apache-node10)
+| [verbral/php:7.3-v2-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.fpm)                   | `7.3.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-fpm.svg)](https://microbadger.com/images/verbral/php:7.3-v2-fpm)
+| [verbral/php:7.3-v2-fpm-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.fpm.node8)       | `7.3.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-fpm-node8.svg)](https://microbadger.com/images/verbral/php:7.3-v2-fpm-node8)
+| [verbral/php:7.3-v2-fpm-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.fpm.node10)       | `7.3.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-fpm-node10.svg)](https://microbadger.com/images/verbral/php:7.3-v2-fpm-node10)
+| [verbral/php:7.3-v2-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.cli)                   | `7.3.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-cli.svg)](https://microbadger.com/images/verbral/php:7.3-v2-cli)
+| [verbral/php:7.3-v2-cli-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.cli.node8)       | `7.3.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-cli-node8.svg)](https://microbadger.com/images/verbral/php:7.3-v2-cli-node8)
+| [verbral/php:7.3-v2-cli-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.cli.node10)       | `7.3.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-cli-node10.svg)](https://microbadger.com/images/verbral/php:7.3-v2-cli-node10)
+| [verbral/php:7.3-v2-slim-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.slim.apache)             | `7.3.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-slim-apache.svg)](https://microbadger.com/images/verbral/php:7.3-v2-slim-apache)
+| [verbral/php:7.3-v2-slim-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.slim.fpm)                   | `7.3.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-slim-fpm.svg)](https://microbadger.com/images/verbral/php:7.3-v2-slim-fpm)
+| [verbral/php:7.3-v2-slim-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.3.slim.cli)                   | `7.3.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.3-v2-slim-cli.svg)](https://microbadger.com/images/verbral/php:7.3-v2-slim-cli)
+| [verbral/php:7.2-v2-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.apache)             | `7.2.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-apache.svg)](https://microbadger.com/images/verbral/php:7.2-v2-apache)
+| [verbral/php:7.2-v2-apache-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.apache.node8) | `7.2.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-apache-node8.svg)](https://microbadger.com/images/verbral/php:7.2-v2-apache-node8)
+| [verbral/php:7.2-v2-apache-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.apache.node10) | `7.2.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-apache-node10.svg)](https://microbadger.com/images/verbral/php:7.2-v2-apache-node10)
+| [verbral/php:7.2-v2-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.fpm)                   | `7.2.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-fpm.svg)](https://microbadger.com/images/verbral/php:7.2-v2-fpm)
+| [verbral/php:7.2-v2-fpm-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.fpm.node8)       | `7.2.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-fpm-node8.svg)](https://microbadger.com/images/verbral/php:7.2-v2-fpm-node8)
+| [verbral/php:7.2-v2-fpm-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.fpm.node10)       | `7.2.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-fpm-node10.svg)](https://microbadger.com/images/verbral/php:7.2-v2-fpm-node10)
+| [verbral/php:7.2-v2-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.cli)                   | `7.2.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-cli.svg)](https://microbadger.com/images/verbral/php:7.2-v2-cli)
+| [verbral/php:7.2-v2-cli-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.cli.node8)       | `7.2.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-cli-node8.svg)](https://microbadger.com/images/verbral/php:7.2-v2-cli-node8)
+| [verbral/php:7.2-v2-cli-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.cli.node10)       | `7.2.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-cli-node10.svg)](https://microbadger.com/images/verbral/php:7.2-v2-cli-node10)
+| [verbral/php:7.2-v2-slim-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.slim.apache)             | `7.2.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-slim-apache.svg)](https://microbadger.com/images/verbral/php:7.2-v2-slim-apache)
+| [verbral/php:7.2-v2-slim-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.slim.fpm)                   | `7.2.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-slim-fpm.svg)](https://microbadger.com/images/verbral/php:7.2-v2-slim-fpm)
+| [verbral/php:7.2-v2-slim-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.2.slim.cli)                   | `7.2.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.2-v2-slim-cli.svg)](https://microbadger.com/images/verbral/php:7.2-v2-slim-cli)
+| [verbral/php:7.1-v2-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.apache)             | `7.1.x` | fat | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-apache.svg)](https://microbadger.com/images/verbral/php:7.1-v2-apache)
+| [verbral/php:7.1-v2-apache-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.apache.node8) | `7.1.x` | fat | apache  | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-apache-node8.svg)](https://microbadger.com/images/verbral/php:7.1-v2-apache-node8)
+| [verbral/php:7.1-v2-apache-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.apache.node10) | `7.1.x` | fat | apache  | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-apache-node10.svg)](https://microbadger.com/images/verbral/php:7.1-v2-apache-node10)
+| [verbral/php:7.1-v2-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.fpm)                   | `7.1.x` | fat | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-fpm.svg)](https://microbadger.com/images/verbral/php:7.1-v2-fpm)
+| [verbral/php:7.1-v2-fpm-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.fpm.node8)       | `7.1.x` | fat | fpm     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-fpm-node8.svg)](https://microbadger.com/images/verbral/php:7.1-v2-fpm-node8)
+| [verbral/php:7.1-v2-fpm-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.fpm.node10)       | `7.1.x` | fat | fpm     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-fpm-node10.svg)](https://microbadger.com/images/verbral/php:7.1-v2-fpm-node10)
+| [verbral/php:7.1-v2-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.cli)                   | `7.1.x` | fat | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-cli.svg)](https://microbadger.com/images/verbral/php:7.1-v2-cli)
+| [verbral/php:7.1-v2-cli-node8](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.cli.node8)       | `7.1.x` | fat | cli     | `8.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-cli-node8.svg)](https://microbadger.com/images/verbral/php:7.1-v2-cli-node8)
+| [verbral/php:7.1-v2-cli-node10](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.cli.node10)       | `7.1.x` | fat | cli     | `10.x`           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-cli-node10.svg)](https://microbadger.com/images/verbral/php:7.1-v2-cli-node10)
+| [verbral/php:7.1-v2-slim-apache](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.slim.apache)             | `7.1.x` | slim | apache  | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-slim-apache.svg)](https://microbadger.com/images/verbral/php:7.1-v2-slim-apache)
+| [verbral/php:7.1-v2-slim-fpm](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.slim.fpm)                   | `7.1.x` | slim | fpm     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-slim-fpm.svg)](https://microbadger.com/images/verbral/php:7.1-v2-slim-fpm)
+| [verbral/php:7.1-v2-slim-cli](https://github.com/thecodingmachine/docker-images-php/blob/v2/Dockerfile.7.1.slim.cli)                   | `7.1.x` | slim | cli     | *N/A*           | [![](https://images.microbadger.com/badges/image/verbral/php:7.1-v2-slim-cli.svg)](https://microbadger.com/images/verbral/php:7.1-v2-slim-cli)
 
 
 Note: we do not tag patch releases of PHP, only minor versions. You will find one image for PHP 7.1, one for PHP 7.2, 
@@ -74,13 +74,13 @@ These images are based on the [official PHP image](https://hub.docker.com/_/php/
 Example with CLI:
 
 ```bash
-$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app thecodingmachine/php:7.2-v2-cli php your-script.php
+$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app verbral/php:7.2-v2-cli php your-script.php
 ```
 
 Example with Apache:
 
 ```bash
-$ docker run -p 80:80 --rm --name my-apache-php-app -v "$PWD":/var/www/html thecodingmachine/php:7.2-v2-apache
+$ docker run -p 80:80 --rm --name my-apache-php-app -v "$PWD":/var/www/html verbral/php:7.2-v2-apache
 ```
 
 Example with PHP-FPM:
@@ -93,7 +93,7 @@ Example with Apache + Node 8.x in a Dockerfile:
 
 **Dockerfile**
 ```Dockerfile
-FROM thecodingmachine/php:7.2-v2-apache-node8
+FROM verbral/php:7.2-v2-apache-node8
 
 COPY src/ /var/www/html/
 RUN composer install
@@ -139,7 +139,7 @@ For instance:
 version: '3'
 services:
   my_app:
-    image: thecodingmachine/php:7.2-v2-apache-node8
+    image: verbral/php:7.2-v2-apache-node8
     environment:
       # Enable the PostgreSQL extension
       PHP_EXTENSION_PGSQL: 1
@@ -159,7 +159,7 @@ If you are using the slim image, you can automatically compile the extensions us
 
 ```Dockerfile
 ARG PHP_EXTENSIONS="apcu mysqli opcache pdo pdo_mysql redis zip soap"
-FROM thecodingmachine/php:7.2-v2-slim-apache
+FROM verbral/php:7.2-v2-slim-apache
 # The build will automatically trigger the download and compilation
 # of the extensions (thanks to a ONBUILD hook in the slim image)
 ```
@@ -176,7 +176,7 @@ first FROM):
 # The PHP_EXTENSIONS ARG will apply to the "slim" image
 ARG PHP_EXTENSIONS="apcu mysqli opcache pdo pdo_mysql zip soap"
 
-FROM thecodingmachine/php:7.2-v2-apache-node10 AS builder
+FROM verbral/php:7.2-v2-apache-node10 AS builder
 
 COPY --chown=docker:docker sources/web .
 RUN composer install &&\
@@ -184,7 +184,7 @@ RUN composer install &&\
     yarn build
 
 # The slim image will automatically build the extensions from the list provided at the very top of the file.
-FROM thecodingmachine/php:7.2-v2-slim-apache
+FROM verbral/php:7.2-v2-slim-apache
 
 ENV APP_ENV=prod \
     APACHE_DOCUMENT_ROOT=/public
@@ -212,7 +212,7 @@ You can override parameters in `php.ini` using the PHP_INI_XXX environment varia
 version: '3'
 services:
   my_app:
-    image: thecodingmachine/php:7.2-v2-apache-node8
+    image: verbral/php:7.2-v2-apache-node8
     environment:
       # set the parameter memory_limit=1g
       PHP_INI_MEMORY_LIMIT: 1g
@@ -265,7 +265,7 @@ For instance:
 version: '3'
 services:
   my_app:
-    image: thecodingmachine/php:7.2-v2-apache-node8
+    image: verbral/php:7.2-v2-apache-node8
     environment:
       # Enable the DAV extension for Apache
       APACHE_EXTENSION_DAV: 1
@@ -302,13 +302,13 @@ Behind the scenes, the image will:
 
 ## NodeJS
 
-The *fat* images come with a Node variant. You can use Node 8 or Node 10. If you need a Node 6 variant, [use thecodingmachine/php v1 images](https://github.com/thecodingmachine/docker-images-php/tree/7.2-v1).
+The *fat* images come with a Node variant. You can use Node 8 or Node 10. If you need a Node 6 variant, [use verbral/php v1 images](https://github.com/thecodingmachine/docker-images-php/tree/7.2-v1).
 
 If you use the *slim* images, you can install a NodeJS version with a simple ARG during the build:
 
 ```Dockerfile
 ARG NODE_VERSION=10
-FROM thecodingmachine/php:7.2-v2-slim-apache
+FROM verbral/php:7.2-v2-slim-apache
 # The build will automatically trigger the download of Node 10
 # (thanks to a ONBUILD hook in the slim image)
 ```
@@ -331,7 +331,7 @@ be your current host user.
 The problem with Docker is that the container and the host do not share the same list of users. For instance, you might
 be logged in on your host computer as `superdev` (ID: 1000), and the container has no user whose ID is 1000.
 
-The *thecodingmachine/php* images solve this issue with a bit of black magic:
+The *verbral/php* images solve this issue with a bit of black magic:
 
 The image contains a user named `docker`. On container startup, the startup script will look at the owner of the 
 working directory (`/var/www/html` for Apache/PHP-FPM, or `/usr/src/app` for CLI). The script will then assume that
@@ -361,7 +361,7 @@ This can be done easily:
 
 **Dockerfile**
 ```
-FROM thecodingmachine/php:7.2-v2-apache
+FROM verbral/php:7.2-v2-apache
 
 # ...
 
@@ -405,7 +405,7 @@ a single argument before the "FROM" clause in your Dockerfile:
 
 ```Dockerfile
 ARG INSTALL_CRON=1
-FROM thecodingmachine/php:7.2-v2-slim-apache
+FROM verbral/php:7.2-v2-slim-apache
 # The build triggers automatically the installation of Cron
 ```
 
@@ -443,7 +443,7 @@ If such a file is mounted in the image, it will be executed on container startup
 
 ```bash
 docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp \ 
-       -v $PWD/my-startup-script.sh:/etc/container/startup.sh thecodingmachine/php:7.2-v2-cli php your-script.php 
+       -v $PWD/my-startup-script.sh:/etc/container/startup.sh verbral/php:7.2-v2-cli php your-script.php 
 ```
 
 ## Registering SSH private keys
@@ -462,7 +462,7 @@ This option is the easiest way to go if you are using the image on a development
 version: '3'
 services:
   my_app:
-    image: thecodingmachine/php:7.2-v2-apache-node8
+    image: verbral/php:7.2-v2-apache-node8
     volumes:
       - ~/.ssh:/home/docker/.ssh
 ```
@@ -483,7 +483,7 @@ Now, let's write a Dockerfile.
 
 **Dockerfile**
 ```yml
-FROM thecodingmachine/php:7.2-v2-apache
+FROM verbral/php:7.2-v2-apache
 
 ARG SSH_PRIVATE_KEY
 ARG SSH_KNOWN_HOSTS
@@ -521,7 +521,7 @@ kind: Pod
 spec:
   containers:
   - name: foobar
-    image: thecodingmachine/php:7.2-v2-apache
+    image: verbral/php:7.2-v2-apache
     securityContext:
       allowPrivilegeEscalation: true # never use "false" here.
 ```
@@ -543,7 +543,7 @@ Your `docker-compose.yml` file will typically look like this:
 version: '3.3'
 services:
   php:
-    image: thecodingmachine/php:7.2-v2-apache
+    image: verbral/php:7.2-v2-apache
     ports:
       - "80:80"
     environment:
@@ -569,7 +569,7 @@ If for some reason, the container name is not "blackfire", you can customize the
 version: '3.3'
 services:
   php:
-    image: thecodingmachine/php:7.2-v2-apache
+    image: verbral/php:7.2-v2-apache
     environment:
       PHP_EXTENSION_BLACKFIRE: 1
       BLACKFIRE_AGENT: myblackfire
