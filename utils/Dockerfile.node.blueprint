@@ -19,4 +19,4 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends yarn && \
     npm install -g npm
 
-USER docker
+USER web

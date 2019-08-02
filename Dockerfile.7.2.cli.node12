@@ -1,4 +1,4 @@
-FROM thecodingmachine/php:7.2-v2-cli
+FROM verbral/php:7.2-v2-cli
 
 LABEL authors="Julien Neuhart <j.neuhart@thecodingmachine.com>, David Négrier <d.negrier@thecodingmachine.com>"
 
@@ -15,4 +15,4 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends yarn && \
     npm install -g npm
 
-USER docker
+USER web

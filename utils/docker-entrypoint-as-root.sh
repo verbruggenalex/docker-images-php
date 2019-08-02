@@ -58,7 +58,7 @@ if [[ "$DOCKER_USER" =~ ^[0-9]+$ ]] ; then
     #echo Switching docker id to $DOCKER_USER
     usermod -u $DOCKER_USER -G sudo docker;
     #echo Switching done
-    DOCKER_USER=docker
+    DOCKER_USER=web
 fi
 
 #echo "Docker user: $DOCKER_USER"

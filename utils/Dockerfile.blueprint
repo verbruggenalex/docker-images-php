@@ -18,7 +18,7 @@ LABEL authors="Julien Neuhart <j.neuhart@thecodingmachine.com>, David Négrier <
 
 USER root
 RUN cd /usr/local/lib/thecodingmachine-php/extensions/current/ && ./install_all.sh && ./disable_all.sh
-USER docker
+USER web
 
 # |--------------------------------------------------------------------------
 # | Default PHP extensions to be enabled

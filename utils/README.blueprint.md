@@ -312,12 +312,12 @@ be logged in on your host computer as `superdev` (ID: 1000), and the container h
 
 The *verbral/php* images solve this issue with a bit of black magic:
 
-The image contains a user named `docker`. On container startup, the startup script will look at the owner of the 
+The image contains a user named `web`. On container startup, the startup script will look at the owner of the 
 working directory (`/var/www/html` for Apache/PHP-FPM, or `/usr/src/app` for CLI). The script will then assume that
 you want to run commands as this user. So it will **dynamically change the ID of the docker user** to match the ID of
 the current working directory user.
 
-Furthermore, the image is changing the Apache default user/group to be `docker/docker` (instead if `www-data/www-data`).
+Furthermore, the image is changing the Apache default user/group to be `web/web` (instead if `www-data/www-data`).
 So Apache will run with the same rights as the user on your host.
 
 The direct result is that, in development:
@@ -328,7 +328,7 @@ The direct result is that, in development:
 
 ### Using this image in production
 
-By changing the Apache user to be `docker:docker`, we are lowering the security.
+By changing the Apache user to be `web:web`, we are lowering the security.
 This is OK for a development environment, but this should be avoided in production.
 Indeed, in production, Apache should not be allowed to edit PHP files of your application. If for some reason, an 
 attacker manages to change PHP files using a security hole, he could then run any PHP script by editing the PHP files
