@@ -28,6 +28,10 @@ mkdir user1999 && sudo chown 1999:1999 user1999
 ls -al user1999
 RESULT=`docker run --rm -v $(pwd)/user1999:$CONTAINER_CWD verbral/php:${PHP_VERSION}-${BRANCH}-slim-${BRANCH_VARIANT} id -ur`
 [[ "$RESULT" = "1999" ]]
+
+# Also, the default user can write on stdout and stderr
+docker run --rm -v $(pwd)/user1999:$CONTAINER_CWD verbral/php:${PHP_VERSION}-${BRANCH}-slim-${BRANCH_VARIANT} bash -c "echo TEST > /proc/self/fd/2"
+
 sudo rm -rf user1999
 
 # and it also works for users with existing IDs in the container
@@ -142,5 +146,6 @@ docker rmi test/composer_with_gd
 #################################
 docker build -t verbral/php:${PHP_VERSION}-${BRANCH}-${BRANCH_VARIANT}-node8 -f Dockerfile.${PHP_VERSION}.${VARIANT}.node8 .
 docker build -t verbral/php:${PHP_VERSION}-${BRANCH}-${BRANCH_VARIANT}-node10 -f Dockerfile.${PHP_VERSION}.${VARIANT}.node10 .
+docker build -t verbral/php:${PHP_VERSION}-${BRANCH}-${BRANCH_VARIANT}-node12 -f Dockerfile.${PHP_VERSION}.${VARIANT}.node12 .
 
 echo "Tests passed with success"
