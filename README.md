@@ -538,7 +538,7 @@ $ docker build -t my_image --build-arg SSH_PRIVATE_KEY="$SSH_PRIVATE_KEY" --buil
 ## Usage in Kubernetes
 
 If you plan to use this image in Kubernetes, please be aware that the image internally uses `sudo`. This is because the
-default user (`docker`) needs to be able to edit php config files as `root`.
+default user (`web`) needs to be able to edit php config files as `root`.
 
 Kubernetes has a security setting (`allowPrivilegeEscalation`) that can disallow the use of `sudo`. The use of this flag
 breaks the image and in the logs, you will find the message:

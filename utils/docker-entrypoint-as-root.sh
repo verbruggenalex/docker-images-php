@@ -22,7 +22,7 @@ if [[ "$DOCKER_USER" == "" ]]; then
     set +e
     mkdir testing_file_system_rights.foo
     chmod 700 testing_file_system_rights.foo
-    su docker -c "touch testing_file_system_rights.foo/somefile > /dev/null 2>&1"
+    su web -c "touch testing_file_system_rights.foo/somefile > /dev/null 2>&1"
     HAS_CONSISTENT_RIGHTS=$?
 
     if [[ "$HAS_CONSISTENT_RIGHTS" != "0" ]]; then
@@ -35,7 +35,7 @@ if [[ "$DOCKER_USER" == "" ]]; then
         if [[ "$FILE_OWNER" == "root" ]]; then
             # if the created user belongs to root, we are likely on a Windows host.
             # all files will belong to root, but it does not matter as everybody can write/delete those (0777 access rights)
-            DOCKER_USER=docker
+            DOCKER_USER=web
         else
             # In case of a NFS mount (common on MacOS), the created files will belong to the NFS user.
             # Apache should therefore have the ID of this user.
@@ -56,7 +56,7 @@ if [[ "$DOCKER_USER" =~ ^[0-9]+$ ]] ; then
     # MAIN_DIR_USER is a user ID.
     # Let's change the ID of the docker user to match this free id!
     #echo Switching docker id to $DOCKER_USER
-    usermod -u $DOCKER_USER -G sudo docker;
+    usermod -u $DOCKER_USER -G sudo web;
     #echo Switching done
     DOCKER_USER=web
 fi
