@@ -77,7 +77,7 @@ USER root
 
 
 
-RUN chown docker:docker /var/www/html
+RUN chown web:web /var/www/html
 
 
 # |--------------------------------------------------------------------------

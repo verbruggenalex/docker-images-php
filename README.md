@@ -187,7 +187,7 @@ ARG PHP_EXTENSIONS="apcu mysqli opcache pdo_mysql zip soap"
 
 FROM verbral/php:7.2-v2-apache-node10 AS builder
 
-COPY --chown=docker:docker sources/web .
+COPY --chown=web:web sources/web .
 RUN composer install &&\
     yarn install &&\
     yarn build
